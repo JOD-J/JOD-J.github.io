@@ -1,0 +1,50 @@
+/* шапка сайта стили --------------------------------------------*/
+.header {
+	display: flex;
+	justify-content: center;
+	background: rgb(44, 195, 233);
+}
+.header__wrapper {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.header__title{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+}
+.header__nav {
+}
+.header__items {
+	display: flex;
+}
+.header__item {
+	margin: 1px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid silver;
+	background: rgb(39, 122, 218);
+}
+.header__item:hover {
+	background: rgb(159, 195, 236);
+}
+.header__link {
+	margin: 10px;
+	font-size: 30px;
+	font-weight: 900;
+}
+.header__items .header__items {
+	width: auto;
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin-top: 6px ;
+
+}
+.header__item:hover .header__items{
+	display: block;
+}
+
+/* шапка сайта стили --------------------------------------------*/

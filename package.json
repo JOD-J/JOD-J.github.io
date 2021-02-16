@@ -1,0 +1,27 @@
+{
+  "name": "JOD-J.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOD-J/JOD-J.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOD-J/JOD-J.github.io/issues"
+  },
+  "homepage": "https://github.com/JOD-J/JOD-J.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
+}

@@ -1,6 +1,7 @@
+@import './modulesScss/hullStyle.scss';
 @import './modulesScss/header.scss';
-
+@import './modulesScss/menuHeader.scss';
 body {
 	background: rgb(222, 222, 222);
-	color: green;
+	color: red;
 }
